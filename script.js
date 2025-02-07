@@ -23,11 +23,11 @@ sfxYes.volume=0.1;
 let sfxYippe = new Audio("yippe.mp3");
 sfxYippe.volume=0.1;
 
-let ogSize = 30;
+let ogSize = 20;
 
 yesBtn.addEventListener("click", function () {
     text.innerText = " ";
-    yesBtn.style.fontSize = `30px`; 
+    yesBtn.style.fontSize = `20px`; 
     yesBtn.style.transition = "font-size 0.3s"; 
     sfxYes.currentTime = 0;
     sfxYes.play();
