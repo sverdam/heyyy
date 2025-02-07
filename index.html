@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will you be my valentine?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Jua&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section>
+        <div class="column center" id="notif">
+            <h1>You've got mail!</h1>
+            <img src="mail.png" id="mail">
+        </div>
+    </section>
+
+    <section id="fakeWindow">
+        <div class="question">
+            <h1>WILL YOU BE MY</h1>
+            <p>valentine?<p>
+        </div>
+
+        <div class="girl">
+            <div class="excited">
+                <img src="excited.png">
+            </div>
+            <div class="neutral">
+                    <img src="neutral.png">
+            </div>
+        </div>
+
+    <div class="buttons">
+        <button id="yes" onmouseover="showExcited()" 
+        onmouseout="showNeutral()">Yes</button>
+        <button id="no">No</button>
+    </div>
+
+        <p id="text"></p>
+    </section>
+
+    <section>
+        <div class="reveal row" id="celebrate">
+            <img src="yay.png" style="width: 200px; height: 200px;">
+                <div class="folder-container">
+                    <div class="folder" onclick="window.location.href='letter.html'"></div>
+                    <p>Read me!</p>
+                </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
